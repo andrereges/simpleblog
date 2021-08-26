@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>br.com.andre.simpleblog</groupId>
+  <artifactId>simpleblog</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0.0</version>
+
+  <name>Simple Blog</name>
+  <url>http://localhost:8080</url>
+
+  <modules>
+    <module>sharedkernel</module>
+    <module>postcontext</module>
+    <module>infrastructure</module>
+    <module>application</module>
+    <module>springboot</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
+    <java.version>11</java.version>
+
+    <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+    <compiler.plugin.version>3.8.1</compiler.plugin.version>
+
+    <appmodules.version>1.0.0</appmodules.version>
+
+    <junit-jupiter.version>5.6.2</junit-jupiter.version>
+    <assertj-core.version>3.12.2</assertj-core.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.vintage</groupId>
+      <artifactId>junit-vintage-engine</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>${assertj-core.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${compiler.plugin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <forkCount>0</forkCount>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

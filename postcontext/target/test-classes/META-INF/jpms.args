@@ -1,0 +1,4 @@
+--patch-module
+br.com.andre.simpleblog.post=_
+--add-reads
+br.com.andre.simpleblog.post=ALL-UNNAMED

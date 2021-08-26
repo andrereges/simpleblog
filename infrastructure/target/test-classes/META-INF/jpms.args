@@ -1,0 +1,4 @@
+--patch-module
+br.com.andre.simpleblog.infrastructure=_
+--add-reads
+br.com.andre.simpleblog.infrastructure=ALL-UNNAMED

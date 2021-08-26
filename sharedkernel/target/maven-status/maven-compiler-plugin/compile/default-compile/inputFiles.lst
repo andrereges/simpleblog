@@ -1,0 +1,5 @@
+/var/projects/java-na-pedreiragem/simpleblog/sharedkernel/src/main/java/br/com/andre/simpleblog/sharedkernel/events/EventSubscriber.java
+/var/projects/java-na-pedreiragem/simpleblog/sharedkernel/src/main/java/module-info.java
+/var/projects/java-na-pedreiragem/simpleblog/sharedkernel/src/main/java/br/com/andre/simpleblog/sharedkernel/service/ApplicationService.java
+/var/projects/java-na-pedreiragem/simpleblog/sharedkernel/src/main/java/br/com/andre/simpleblog/sharedkernel/events/EventBus.java
+/var/projects/java-na-pedreiragem/simpleblog/sharedkernel/src/main/java/br/com/andre/simpleblog/sharedkernel/events/ApplicationEvent.java

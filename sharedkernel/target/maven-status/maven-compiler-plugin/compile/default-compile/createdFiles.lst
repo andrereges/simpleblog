@@ -1,0 +1,5 @@
+br/com/andre/simpleblog/sharedkernel/events/ApplicationEvent.class
+br/com/andre/simpleblog/sharedkernel/events/EventBus.class
+br/com/andre/simpleblog/sharedkernel/events/EventSubscriber.class
+module-info.class
+br/com/andre/simpleblog/sharedkernel/service/ApplicationService.class

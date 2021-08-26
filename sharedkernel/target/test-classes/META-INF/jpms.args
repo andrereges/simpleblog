@@ -1,0 +1,4 @@
+--patch-module
+br.com.andre.simpleblog.sharedkernel=_
+--add-reads
+br.com.andre.simpleblog.sharedkernel=ALL-UNNAMED

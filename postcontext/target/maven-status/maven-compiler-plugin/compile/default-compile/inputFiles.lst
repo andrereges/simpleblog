@@ -1,0 +1,15 @@
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Multimedia.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/service/impl/PostServiceImpl.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Tag.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/PostStatus.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Photo.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/service/PostService.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Category.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Comment.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Video.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/module-info.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Answer.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/repository/PostRepository.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Author.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Post.java
+/var/projects/java-na-pedreiragem/simpleblog/postcontext/src/main/java/br/com/andre/simpleblog/postcontext/model/Audio.java

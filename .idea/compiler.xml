@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="application" />
+        <module name="infrastructure" />
+        <module name="sharedkernel" />
+        <module name="springboot" />
+      </profile>
+      <profile name="Annotation profile for Simple Blog" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/beust/jcommander/1.48/jcommander-1.48.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar" />
+        </processorPath>
+        <module name="postcontext" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="application" target="11" />
+      <module name="domain" target="11" />
+      <module name="infrastructure" target="11" />
+      <module name="postcontext" target="11" />
+      <module name="presentation" target="11" />
+      <module name="sharedkernel" target="11" />
+      <module name="sharedKernel" target="11" />
+      <module name="simpleblog" target="11" />
+      <module name="springboot" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot" options="-parameters" />
+    </option>
+  </component>
+</project>
